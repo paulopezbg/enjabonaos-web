@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Enjabonaos - Jabones Artesanales</title>
+  <style>
+    :root{
+      --fondo:#F2EEE6;
+      --verde:#7F8F2A;
+      --coral:#E7A29A;
+      --amarillo:#F2C66E;
+      --texto:#4A5A1A;
+    }
+    body{
+      margin:0;
+      font-family: Arial, Helvetica, sans-serif;
+      background: var(--fondo);
+      color: var(--texto);
+    }
+    header{
+      text-align:center;
+      padding:30px 20px;
+      background: white;
+      border-bottom: 3px solid var(--verde);
+    }
+    header h1{
+      margin:0;
+      color: var(--verde);
+      font-size: 2.2rem;
+    }
+    header p{
+      margin:5px 0 0;
+      color: var(--coral);
+      font-weight: bold;
+    }
+    .contenedor{
+      max-width: 1100px;
+      margin: 0 auto;
+      padding: 30px 15px;
+    }
+    .catalogo{
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 20px;
+    }
+    .producto{
+      background: white;
+      border-radius: 10px;
+      box-shadow: 0 2px 8px rgba(0,0,0,.1);
+      overflow: hidden;
+      text-align: center;
+      border-top: 4px solid var(--verde);
+    }
+    .producto img{
+      width: 100%;
+      height: 220px;
+      object-fit: cover;
+      background:#e5e5e5;
+    }
+    .info{
+      padding: 15px;
+    }
+    .info h3{
+      margin: 0 0 8px;
+      color: var(--verde);
+    }
+    .info p{
+      margin:0;
+      font-size: .95rem;
+      line-height: 1.4;
+    }
+    footer{
+      text-align:center;
+      padding:20px;
+      margin-top:30px;
+      background:white;
+      border-top:3px solid var(--verde);
+      font-size:.9rem;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <img src="logo.jpg" style="width:100%; max-height:220px; object-fit:contain;">
+    <h1>ENJABONAOS</h1>
+    <p>Jabones artesanales</p>
+  </header>
+
+  <main class="contenedor">
+    <section class="catalogo">
+
+      <div class="producto">
+        <img src="IMAGEN-1.jpg" alt="Jabón de yogurt griego y rosas">
+        <div class="info">
+          <h3>JABÓN DE YOGURT GRIEGO Y ROSAS</h3>
+          <p>Descongestionante, desinflamatorio, suavizante y difumina arrugas y líneas de expresión. Recomendado para piel normal y asfixiada.</p>
+        </div>
+      </div>
+
+      <div class="producto">
+        <img src="IMAGEN-2.jpg" alt="Jabón menta">
+        <div class="info">
+          <h3>JABÓN MENTA</h3>
+          <p>Recomendado para pies cansados, adoloridos e hinchados. No recomendado para piel delicada o con irritaciones.</p>
+        </div>
+      </div>
+
+      <div class="producto">
+        <img src="IMAGEN-3.jpg" alt="Jabón de yogurt de fresa con chocolate">
+        <div class="info">
+          <h3>JABÓN DE YOGURT DE FRESA CON CHOCOLATE</h3>
+          <p>Hidratante, suavizante, aclarante y bactericida. Aporta humedad y proteínas. Recomendado para piel normal y seca.</p>
+        </div>
+      </div>
+
+      <div class="producto">
+        <img src="IMAGEN-4.jpg" alt="Jabón mocaccino">
+        <div class="info">
+          <h3>JABÓN MOCACCINO</h3>
+          <p>Exfoliante, corta la grasa, aclarante, hidratante y suavizante. Recomendado para piel grasa, mixta y con acné.</p>
+        </div>
+      </div>
+
+      <div class="producto">
+        <img src="IMAGEN-5.jpg" alt="Jabón de pepino y leche">
+        <div class="info">
+          <h3>JABÓN DE PEPINO Y LECHE</h3>
+          <p>Para piel normal a sensible, especialmente para piel que se enrojece o inflama con el sol.</p>
+        </div>
+      </div>
+
+      <div class="producto">
+        <img src="IMAGEN-6.jpg" alt="Jabón para manos">
+        <div class="info">
+          <h3>JABÓN PARA MANOS</h3>
+          <p>Jabón de uso diario capaz de eliminar bacterias y virus. Recomendado para todas las edades.</p>
+        </div>
+      </div>
+
+      <div class="producto">
+        <img src="IMAGEN-7.jpg" alt="Jabón de arcilla verde">
+        <div class="info">
+          <h3>JABÓN DE ARCILLA VERDE</h3>
+          <p>Para piel grasa y mixta con acné o seborrea. Puede usarse en rostro, cuerpo y cuero cabelludo.</p>
+        </div>
+      </div>
+
+      <div class="producto">
+        <img src="IMAGEN-8.jpg" alt="Jabón de cúrcuma">
+        <div class="info">
+          <h3>JABÓN DE CÚRCUMA</h3>
+          <p>Para manchas en la piel, vitíligo, psoriasis y pieles opacas.</p>
+        </div>
+      </div>
+
+      <div class="producto">
+        <img src="IMAGEN-9.jpg" alt="Jabón con decoración para niños">
+        <div class="info">
+          <h3>JABÓN CON DECORACIÓN PARA NIÑOS</h3>
+          <p>Jabón con figuras encapsuladas. Para baño y uso diario en lavado de manos.</p>
+        </div>
+      </div>
+
+      <div class="producto">
+        <img src="IMAGEN-10.jpg" alt="Jabón de arroz y perejil">
+        <div class="info">
+          <h3>JABÓN DE ARROZ Y PEREJIL</h3>
+          <p>Antienvejecimiento. Recomendado para piel madura (40–70 años) y también para piel grasa o mixta.</p>
+        </div>
+      </div>
+
+      <div class="producto">
+        <img src="IMAGEN-11.jpg" alt="Jabón atardecer para cabello">
+        <div class="info">
+          <h3>JABÓN ATARDECER (PARA CABELLO)</h3>
+          <p>Para caída de cabello o cabello delgado; ayuda a evitar la caída y a engrosar el tallo capilar.</p>
+        </div>
+      </div>
+
+      <div class="producto">
+        <img src="IMAGEN-12.jpg" alt="Jabón neutro">
+        <div class="info">
+          <h3>JABÓN NEUTRO</h3>
+          <p>Jabón suave y sin fragancia, ideal para piel sensible y uso diario.</p>
+        </div>
+      </div>
+
+      <div class="producto">
+        <img src="IMAGEN-13.jpg" alt="Jabón de vino tinto y caléndula">
+        <div class="info">
+          <h3>JABÓN DE VINO TINTO Y CALÉNDULA</h3>
+          <p>Corta grasa, purifica, cicatriza, aclara, tonifica y desinflama la piel.</p>
+        </div>
+      </div>
+
+      <div class="producto">
+        <img src="IMAGEN-14.jpg" alt="Jabón limón-coco">
+        <div class="info">
+          <h3>JABÓN LIMÓN–COCO</h3>
+          <p>Para piel grasa a mixta pero sensible. También para cabello con caída parcial o total (alopecia, areata o por quimioterapia).</p>
+        </div>
+      </div>
+
+    </section>
+  </main>
+
+  <footer>
+    © Enjabonaos – Jabones artesanales
+  </footer>
+</body>
+</html>
